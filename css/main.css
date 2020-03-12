@@ -1,9 +1,28 @@
 html {
   font-family: "Open Sans", sans-serif;
+  color: #000;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+section {
+  max-width: 35rem;
+  padding-top: 1.4rem;
+  background-color: #fff;
+}
+
+fieldset {
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
 
 }
